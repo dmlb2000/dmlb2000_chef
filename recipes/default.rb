@@ -6,3 +6,6 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+include_recipe 'omnibus_updater'
+include_recipe 'chef-client'
+include_recipe 'chef-dk'

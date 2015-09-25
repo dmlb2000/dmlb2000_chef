@@ -1,9 +1,7 @@
 dmlb2000_chef Cookbook
 ======================
-TODO: Enter the cookbook description here.
-
-e.g.
-This cookbook makes your favorite breakfast sandwich.
+This cookbook manages chef client service and updates for my systems
+at home.
 
 Requirements
 ------------
