@@ -1,0 +1,29 @@
+DEPENDENCIES
+  dmlb2000_chef
+    path: .
+    metadata: true
+
+GRAPH
+  build-essential (2.2.4)
+  chef-client (4.3.1)
+    cron (>= 1.2.0)
+    logrotate (>= 1.2.0)
+    windows (~> 1.37)
+  chef-dk (3.1.0)
+    dmg (~> 2.2)
+  chef_handler (1.2.0)
+  cron (1.7.0)
+  dmg (2.2.2)
+  dmlb2000_chef (0.3.1)
+    build-essential (>= 0.0.0)
+    chef-client (>= 0.0.0)
+    chef-dk (>= 0.0.0)
+    omnibus_updater (>= 0.0.0)
+    vagrant (= 0.3.0)
+  logrotate (1.9.2)
+  omnibus_updater (1.0.4)
+  vagrant (0.3.0)
+    dmg (>= 2.2.2)
+    windows (>= 1.30.2)
+  windows (1.38.2)
+    chef_handler (>= 0.0.0)
