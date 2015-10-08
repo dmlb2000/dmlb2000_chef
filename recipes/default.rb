@@ -7,8 +7,8 @@
 # All rights reserved - Do Not Redistribute
 #
 
-user 'dmlb2000' 
-user 'browne' 
+user 'dmlb2000'
+user 'browne'
 group 'wheel' do
   members ['dmlb2000']
 end
