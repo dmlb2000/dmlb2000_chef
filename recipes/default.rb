@@ -7,11 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-user 'dmlb2000'
-user 'browne'
-group 'wheel' do
-  members ['dmlb2000']
-end
+include_recipe 'dmlb2000_users'
 package 'libvirt-devel'
 package 'libffi-devel'
 package 'zlib-devel'
