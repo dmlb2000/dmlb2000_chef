@@ -7,8 +7,4 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 version '0.3.18'
 
 depends 'omnibus_updater'
-depends 'dmlb2000_users'
-depends 'build-essential'
 depends 'chef-client'
-depends 'chef-dk'
-depends 'vagrant'
