@@ -8,4 +8,5 @@
 #
 
 include_recipe 'omnibus_updater'
+include_recipe 'chef-client::config'
 include_recipe 'chef-client'
